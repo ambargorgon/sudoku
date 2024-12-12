@@ -1,0 +1,32 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+@font-face {
+  font-family: 'Floriena';
+  src: url('/florienapersonaluseonlyregular-oglz8.ttf');
+}
+
+.cell-invalid {
+  background-color: #ffcccc;
+}
+
+.juego-terminado {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+  border-radius: 4px;
+  text-align: center;
+}
+.error-cell {
+  background-color: rgba(255, 0, 0, 0.747); /* Fondo rojo translúcido */
+}
